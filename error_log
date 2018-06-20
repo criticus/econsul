@@ -1,0 +1,28 @@
+[18-Oct-2017 19:03:23 UTC] PHP Warning:  strpos(): Empty needle in /home4/nypasspo/public_html/wp-includes/functions.php on line 4318
+[18-Oct-2017 19:03:23 UTC] PHP Warning:  strpos(): Empty needle in /home4/nypasspo/public_html/wp-includes/functions.php on line 4318
+[18-Oct-2017 19:03:23 UTC] mojo_plugin_activated
+[10-Nov-2017 02:27:06 UTC] PHP Warning:  require(/home4/nypasspo/public_html/wp-content/themes/instaappointment-lite/inc/custom-header.php): failed to open stream: No such file or directory in /home4/nypasspo/public_html/wp-content/themes/twentyseventeen/functions.php on line 547
+[10-Nov-2017 02:27:06 UTC] PHP Warning:  require(/home4/nypasspo/public_html/wp-content/themes/instaappointment-lite/inc/custom-header.php): failed to open stream: No such file or directory in /home4/nypasspo/public_html/wp-content/themes/twentyseventeen/functions.php on line 547
+[10-Nov-2017 02:27:06 UTC] PHP Fatal error:  require(): Failed opening required '/home4/nypasspo/public_html/wp-content/themes/instaappointment-lite/inc/custom-header.php' (include_path='phar:///usr/local/bin/wp/vendor/phpunit/php-token-stream:phar:///usr/local/bin/wp/vendor/phpunit/phpunit-mock-objects:phar:///usr/local/bin/wp/vendor/phpunit/php-code-coverage:phar:///usr/local/bin/wp/vendor/phpunit/phpunit:phar:///usr/local/bin/wp/vendor/symfony/yaml:.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home4/nypasspo/public_html/wp-content/themes/twentyseventeen/functions.php on line 547
+[25-Nov-2017 22:19:49 UTC] PHP Parse error:  syntax error, unexpected 'easy' (T_STRING), expecting ',' or ')' in /home4/nypasspo/public_html/wp-content/plugins/easy-appointments/src/frontend.php on line 380
+[25-Nov-2017 22:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php:370
+Stack trace:
+#0 /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php(403): Endurance_Page_Cache->is_cachable()
+#1 /home4/nypasspo/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home4/nypasspo/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home4/nypasspo/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home4/nypasspo/public_html/wp-includes/load.php(679): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 370
+[25-Nov-2017 22:19:53 UTC] PHP Parse error:  syntax error, unexpected 'easy' (T_STRING), expecting ',' or ')' in /home4/nypasspo/public_html/wp-content/plugins/easy-appointments/src/frontend.php on line 380
+[25-Nov-2017 22:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php:370
+Stack trace:
+#0 /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php(403): Endurance_Page_Cache->is_cachable()
+#1 /home4/nypasspo/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home4/nypasspo/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home4/nypasspo/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home4/nypasspo/public_html/wp-includes/load.php(679): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home4/nypasspo/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 370
